@@ -3,7 +3,323 @@
         "id": 1,
         "name": "Mark Evans",
         "nickname": "",
-        "position": "POR",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "GK",
+        "year": "2º",
         "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/dd/%28R%29_Endou_Mamoru_sprite_%28VR%29.png"
+    },
+    {
+        "id": 2,
+        "name": "Nathan Swift",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "DF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e4/%28R%29_Kazemaru_Ichirouta_sprite_%28VR%29.png"
+    },
+    {
+        "id": 3,
+        "name": "Jack Wallside",
+        "nickname": "",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/45/%28R%29_Kabeyama_Heigorou_sprite_%28VR%29.png"
+    },
+    {
+        "id": 4,
+        "name": "Hurley Kane",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "DF",
+        "year": "3º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/9d/%28SR%29_Tsunami_Jousuke_sprite_%28VR%29.png"
+    },
+    {
+        "id": 5,
+        "name": "Jean-Pierre Lapin",
+        "nickname": "",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cf/%28R_%28GO%29%29_Nishizono_Shinsuke_sprite_%28VR%29.png"
+    },
+    {
+        "id": 6,
+        "name": "Sonny Wright",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/39/%28IR%29_Inamori_Asuto_sprite.png"
+    },
+    {
+        "id": 7,
+        "name": "Arion Sherwind",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "MF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/55/%28R_%28GO%29%29_Matsukaze_Tenma_sprite_%28VR%29.png"
+    },
+    {
+        "id": 8,
+        "name": "Victor Blade",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/9c/%28R_%28GO%29%29_Tsurugi_Kyousuke_sprite_%28VR%29.png"
+    },
+    {
+        "id": 9,
+        "name": "Axel Blaze",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/77/%28R%29_Gouenji_Shuuya_sprite_%28VR%29.png"
+    },
+    {
+        "id": 10,
+        "name": "Byron Love",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/8e/%28Z%29_Afuro_Terumi_sprite_%28VR%29.png"
+    },
+    {
+        "id": 11,
+        "name": "Jordan Greenway",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/aa/%28SIJ%29_Midorikawa_Ryuuji_sprite_%28VR%29.png"
+    },
+    {
+        "id": 12,
+        "name": "Heath Moore",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/03/%28OT%29_Nosaka_Yuuma_sprite.png"
+    },
+    {
+        "id": 13,
+        "name": "Fei Rune",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/34/%28R_%28CS%29%29_Fei_Rune_sprite_%28VR%29.png"
+    },
+    {
+        "id": 14,
+        "name": "Xavier Foster",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/6a/%28SIJ%29_Kiyama_Hiroto_sprite_%28VR%29.png"
+    },
+    {
+        "id": 15,
+        "name": "Darren LaChance",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "GK",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/d2/%28SR-GK%29_Tachimukai_Yuuki_sprite_%28VR%29.png"
+    },
+    {
+        "id": 16,
+        "name": "Goldie Lemmon",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Female",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/83/%28R_%28CS%29%29_Nanobana_Kinako_sprite_%28VR%29.png"
+    },
+    {
+        "id": 17,
+        "name": "Samguk Han",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "GK",
+        "year": "3º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/a3/%28R_%28GO%29%29_Sangoku_Taichi_sprite_%28VR%29.png"
+    },
+    {
+        "id": 18,
+        "name": "Gabriel Garcia",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "DF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/f5/%28R_%28GO%29%29_Kirino_Ranmaru_sprite_%28VR%29.png"
+    },
+    {
+        "id": 19,
+        "name": "Victoria Vanguard",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Female",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/39/%28SR%29_Zaizen_Touko_sprite_%28VR%29.png"
+    },
+    {
+        "id": 20,
+        "name": "Scott Banyan",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/3d/%28SR%29_Kogure_Yuuya_sprite_%28VR%29.png"
+    },
+    {
+        "id": 21,
+        "name": "Riccardo Di Rigo",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/58/%28R_%28GO%29%29_Shindou_Takuto_sprite_%28VR%29.png"
+    },
+    {
+        "id": 22,
+        "name": "Caleb Stonewall",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/44/%28TG%29_Fudou_Akio_sprite_%28VR%29.png"
+    },
+    {
+        "id": 23,
+        "name": "Shawn Froste",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/2a/%28SR%29_Fubuki_Shirou_sprite_%28VR%29.png"
+    },
+    {
+        "id": 24,
+        "name": "Elliot Ember",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ed/%28SG%29_Haizaki_Ryouhei_sprite.png"
+    },
+    {
+        "id": 25,
+        "name": "Kevin Dragonfly",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/73/%28R%29_Someoka_Ryuugo_sprite_%28VR%29.png"
+    },
+    {
+        "id": 26,
+        "name": "Bailong",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "FW",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/01/%28R_%28CS%29%29_Hakuryuu_sprite_%28VR%29.png"
+    },
+    {
+        "id": 27,
+        "name": "Jude Sharp",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/33/%28TG%29_Kidou_Yuuto_sprite_%28VR%29.png"
+    },
+    {
+        "id": 28,
+        "name": "Aitor Cazador",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/3e/%28R_%28GO%29%29_Kariya_Masaki_sprite_%28VR%29.png"
+    },
+    {
+        "id": 29,
+        "name": "Erik Eagle",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/9b/%28R%29_Ichinose_Kazuya_sprite_%28VR%29.png"
+    },
+    {
+        "id": 30,
+        "name": "Zanark Avalonic",
+        "nickname": "",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/2e/%28R_%28CS%29%29_Zanark_Avalonic_sprite_%28VR%29.png"
+    },
+    {
+        "id": 31,
+        "name": "Tezcat",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/9b/%28IBE%29_Shuu_sprite_%28VR%29.png"
+    },
+    {
+        "id": 32,
+        "name": "Suzette Hartland",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Female",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/04/%28SR%29_Urabe_Rika_sprite_%28VR%29.png"
     }
+    
+    
+
 ]
