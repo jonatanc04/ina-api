@@ -1,0 +1,28 @@
+
+### Recuperar todas las películas
+GET http://localhost:3000/players
+
+### Recuperar una película por id
+GET http://localhost:3000/players/1
+
+### Recuperar todas las películas por un género
+GET http://localhost:3000/players?position=por
+
+### Crear una película con POST
+POST http://localhost:3000/players
+Content-Type: application/json
+
+{
+    "name": "Sue Hartland",
+    "nickname": "",
+    "position": "DEL",
+    "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/04/%28SR%29_Urabe_Rika_sprite_%28VR%29.png"
+}
+
+### Actualizar una película
+PATCH http://localhost:3000/players/1
+Content-Type: application/json
+
+{
+  "name": "Mark Evans"
+}
