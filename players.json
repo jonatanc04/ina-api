@@ -318,6 +318,126 @@
         "position": "FW",
         "year": "2º",
         "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/04/%28SR%29_Urabe_Rika_sprite_%28VR%29.png"
+    },
+    {
+        "id": 33,
+        "name": "Dvalin",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "GK",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c2/%28TG%29_Desarm_sprite_%28VR%29.png"
+    },
+    {
+        "id": 34,
+        "name": "Claire Lesnow",
+        "nickname": "Clear",
+        "element": "Wind",
+        "gender": "Female",
+        "position": "DF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/27/%28TG%29_Clara_sprite_%28VR%29.png"
+    },
+    {
+        "id": 35,
+        "name": "Zack Cummings",
+        "nickname": "Zohen",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "DF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/12/%28TG%29_Zohan_sprite_%28VR%29.png"
+    },
+    {
+        "id": 36,
+        "name": "Albert Denver",
+        "nickname": "Gocker",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "DF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/6e/%28TG%29_Gokka_sprite_%28VR%29.png"
+    },
+    {
+        "id": 37,
+        "name": "Ben Blowton",
+        "nickname": "Bomber",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/35/%28TG%29_Bomba_sprite_%28VR%29.png"
+    },
+    {
+        "id": 38,
+        "name": "Connor Murray",
+        "nickname": "Kormer",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/64/%28TG%29_Coma_sprite_%28VR%29.png"
+    },
+    {
+        "id": 39,
+        "name": "Janus",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "MF",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/f5/%28TG%29_Reize_sprite_%28VR%29.png"
+    },
+    {
+        "id": 40,
+        "name": "Isabelle Trick",
+        "nickname": "Bellatrix",
+        "element": "Wind",
+        "gender": "Female",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28TG%29_Ulvida_sprite_%28VR%29.png"
+    },
+    {
+        "id": 41,
+        "name": "Bryce Whitingale",
+        "nickname": "Gazelle",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/f4/%28TG%29_Gazel_sprite_%28VR%29.png"
+    },
+    {
+        "id": 42,
+        "name": "Claude Beacons",
+        "nickname": "Torch",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/dc/%28TG%29_Burn_sprite_%28VR%29.png"
+    },
+    {
+        "id": 43,
+        "name": "Xene",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Male",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/21/%28TG%29_Gran_sprite_%28VR%29.png"
+    },
+    {
+        "id": 44,
+        "name": "Wilbur Watkins",
+        "nickname": "Wittz",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/ff/%28TG%29_Wheeze_sprite_%28VR%29.png"
     }
     
     
