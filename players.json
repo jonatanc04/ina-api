@@ -448,6 +448,56 @@
         "position": "MF",
         "year": "2º",
         "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b6/%28TG%29_Rean_sprite_%28VR%29.png"
+    },
+    {
+        "id": 46,
+        "name": "Lucy Hailstone",
+        "nickname": "Icer",
+        "element": "Wind",
+        "gender": "Female",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c1/%28TG%29_IC_sprite_%28VR%29.png"
+    },
+    {
+        "id": 47,
+        "name": "Zeke Valanche",
+        "nickname": "Zell",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c7/%28TG%29_Zel_sprite_%28VR%29.png"
+    },
+    {
+        "id": 48,
+        "name": "Nigel August",
+        "nickname": "Neppten",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/37/%28TG%29_Nepper_sprite_%28VR%29.png"
+    },
+    {
+        "id": 49,
+        "name": "Destin Billows",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "--",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/37/%28N-SU%29_Sasanami_Unmei_sprite.png"
+    },
+    {
+        "id": 50,
+        "name": "Briar Bloomhurst",
+        "nickname": "",
+        "element": "Earth",
+        "gender": "Male",
+        "position": "FW",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b3/%28N-SU%29_Sakurazaki_Jouji_sprite.png"
     }
     
     
