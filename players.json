@@ -497,9 +497,67 @@
         "gender": "Male",
         "position": "FW",
         "year": "2º",
-        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b3/%28N-SU%29_Sakurazaki_Jouji_sprite.png"
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/65/%28N%29_Sakurazaki_Jouji_sprite.png"
+    },
+    {
+        "id": 51,
+        "name": "Beta",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Female",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/11/%28PO%29_Beta_sprite_%28VR%29.png"
+    },
+    {
+        "id": 52,
+        "name": "Cedric Freud",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "DF",
+        "year": "1º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/51/%28N%29_Kisoji_Heita_sprite.png"
+    },
+    {
+        "id": 53,
+        "name": "Kameo Kodokai (JP)",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "DF",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/7c/%28N%29_Kodoukai_Kameo_sprite.png"
+    },
+    {
+        "id": 54,
+        "name": "Raika Shinohara (JP)",
+        "nickname": "",
+        "element": "Fire",
+        "gender": "Female",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ec/%28N%29_Shinohara_Raika_sprite.png"
+    },
+    {
+        "id": 55,
+        "name": "Alix La Fontaine",
+        "nickname": "",
+        "element": "Wind",
+        "gender": "Male",
+        "position": "PR",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/d5/%28N%29_Shisendou_Garyuu_sprite.png"
+    },
+    {
+        "id": 56,
+        "name": "Thierry Reyes",
+        "nickname": "",
+        "element": "Wood",
+        "gender": "Male",
+        "position": "FW",
+        "year": "??",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/1d/%28N%29_Yagyuu_Suruga_sprite.png"
     }
     
-    
-
 ]
