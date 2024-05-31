@@ -1,11 +1,10 @@
-const express = require('express')
-const cors = require('cors')
-
-const players = require('./players.json')
-const { validatePlayer, validatePartialPlayer } = require('./schemas/players')
+import express, { json } from 'express'
+import cors from 'cors'
+import { validatePlayer, validatePartialPlayer } from './schemas/players.js'
+import players from './players.json' with { type: 'json'}
 
 const app = express()
-app.use(express.json())
+app.use(json())
 app.use(cors({
   origin: (origin, callback) => {
     const ACCEPTED_ORIGINS = [
@@ -67,7 +66,7 @@ app.delete('/players/:id', (req, res) => {
     return res.status(404).json({ message: 'Player not found' })
   }
 
-  players.splice(playerIndex, 1)
+  splice(playerIndex, 1)
 
   return res.json({ message: 'Player deleted' })
 })

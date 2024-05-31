@@ -1,4 +1,4 @@
-const z = require('zod')
+import z from 'zod'
 
 const playerSchema = z.object({
   name: z.string({
@@ -17,15 +17,10 @@ const playerSchema = z.object({
   })
 })
 
-function validatePlayer (input) {
+export function validatePlayer (input) {
   return playerSchema.safeParse(input)
 }
 
-function validatePartialPlayer (input) {
+export function validatePartialPlayer (input) {
   return playerSchema.partial().safeParse(input)
-}
-
-module.exports = {
-  validatePlayer,
-  validatePartialPlayer
 }
