@@ -6,7 +6,7 @@ GET http://localhost:3000/players
 GET http://localhost:3000/players/5c5f5979-755d-4dd9-956b-23f10d118a82
 
 ### Recuperar todas las películas por un género
-GET http://localhost:3000/players?position=por
+GET http://localhost:3000/players?position=gk
 
 ### Crear una película con POST
 POST http://localhost:3000/players
@@ -23,9 +23,11 @@ Content-Type: application/json
 }
 
 ### Actualizar una película
-PATCH http://localhost:3000/players/eb326086-b40b-4730-902c-56209e4c1391
+PATCH http://localhost:3000/players/0a947a75-024b-419b-b4ef-e3106b0e38e3
 Content-Type: application/json
 
 {
-  "name": "Mark Evans"
+  "name": "El nelas"
 }
+###
+DELETE http://localhost:3000/players/0a947a75-024b-419b-b4ef-e3106b0e38e3
