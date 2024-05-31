@@ -438,6 +438,16 @@
         "position": "FW",
         "year": "2º",
         "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/ff/%28TG%29_Wheeze_sprite_%28VR%29.png"
+    },
+    {
+        "id": 45,
+        "name": "Brenda Firequest",
+        "nickname": "Lean",
+        "element": "Fire",
+        "gender": "Female",
+        "position": "MF",
+        "year": "2º",
+        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b6/%28TG%29_Rean_sprite_%28VR%29.png"
     }
     
     
