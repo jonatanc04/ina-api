@@ -1,57 +1,47 @@
 import { Router } from "express";
-import players from '../players.json' with { type: 'json' }
 import { validatePlayer, validatePartialPlayer } from '../schemas/players.js'
+import { PlayerModel } from "../models/player.js";
 
 export const playersRouter = Router()
 
-playersRouter.get('/', (req, res) => {
+playersRouter.get('/', async (req, res) => {
   const { position } = req.query
-  if (position) {
-    const filteredPlayers = players.filter(
-      player => player.position.toLocaleLowerCase() === position.toLocaleLowerCase()
-    )
-    return res.json(filteredPlayers)
-  }
+  const players = await PlayerModel.getAll({ position })
   res.json(players)
 })
 
-playersRouter.get('/:id', (req, res) => {
+playersRouter.get('/:id', async (req, res) => {
   const { id } = req.params
-  const player = players.find(player => player.id == id)
+  const player = await PlayerModel.getByID({ id })
   if (player) return res.json(player)
   res.status(404).json({ message: 'Player not found' })
 })
 
-playersRouter.post('/', (req, res) => {
+playersRouter.post('/', async (req, res) => {
   const result = validatePlayer(req.body)
 
   if (!result.success) {
     return res.status(400).json({ error: JSON.parse(result.error.message) })
   }
 
-  const newPlayer = {
-    id: players.length + 1,
-    ...result.data
-  }
-  players.push(newPlayer)
+  const newPlayer =  await PlayerModel.create({ input: result.data })
 
   res.status(201).json(newPlayer)
 })
 
-playersRouter.delete('/:id', (req, res) => {
+playersRouter.delete('/:id', async (req, res) => {
   const { id } = req.params
-  const playerIndex = players.findIndex(player => player.id == id)
+  
+  const result = await PlayerModel.delete({ id })
 
-  if (playerIndex === -1) {
+  if (!result) {
     return res.status(404).json({ message: 'Player not found' })
   }
-
-  splice(playerIndex, 1)
 
   return res.json({ message: 'Player deleted' })
 })
 
-playersRouter.patch('/:id', (req, res) => {
+playersRouter.patch('/:id', async (req, res) => {
   const result = validatePartialPlayer(req.body)
 
   if (!result.success) {
@@ -59,18 +49,7 @@ playersRouter.patch('/:id', (req, res) => {
   }
 
   const { id } = req.params
-  const playerIndex = players.findIndex(player => player.id == id)
+  const updatedPlayer = await PlayerModel.update({id, input: result.data})
 
-  if (playerIndex === -1) {
-    return res.status(404).json({ message: 'Player not found' })
-  }
-
-  const updatePlayer = {
-    ...players[playerIndex],
-    ...result.data
-  }
-
-  players[playerIndex] = updatePlayer
-
-  return res.json(updatePlayer)
+  return res.json(updatedPlayer)
 })
