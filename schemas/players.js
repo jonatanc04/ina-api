@@ -7,7 +7,7 @@ const playerSchema = z.object({
   }),
   nickname: z.string({
     invalid_type_error: 'Player nickname must be a string',
-  }),
+  }).nullable(),
   element: z.string({
     invalid_type_error: 'Player element must be a string',
     required_error: 'Player element is required.'
