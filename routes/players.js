@@ -1,14 +1,16 @@
 import { Router } from "express";
 import { PlayerController } from "../controllers/players.js";
 
-export const playersRouter = Router()
+export const createPlayerRouter = ({ playerModel }) => {
+  const playersRouter = Router()
 
-playersRouter.get('/', PlayerController.getAll)
+  const playerController = new PlayerController({ playerModel })
 
-playersRouter.get('/:id', PlayerController.getByID)
+  playersRouter.get('/', playerController.getAll)
+  playersRouter.get('/:id', playerController.getByID)
+  playersRouter.post('/', playerController.create)
+  playersRouter.delete('/:id', playerController.delete)
+  playersRouter.patch('/:id', playerController.update)
 
-playersRouter.post('/', PlayerController.create)
-
-playersRouter.delete('/:id', PlayerController.delete)
-
-playersRouter.patch('/:id', PlayerController.update)
+  return playersRouter
+}

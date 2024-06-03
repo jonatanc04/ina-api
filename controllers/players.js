@@ -1,38 +1,40 @@
-import { PlayerModel } from "../models/local-file-system/player.js";
 import { validatePlayer, validatePartialPlayer } from '../schemas/players.js'
-//import { PlayerModel } from '../models/mysql/player.js'
 
 export class PlayerController {
 
-  static async getAll (req, res) {
+  constructor ({ playerModel }) {
+    this.playerModel = playerModel
+  }
+
+  getAll = async (req, res) => {
     const { position } = req.query
-    const players = await PlayerModel.getAll({ position })
+    const players = await this.playerModel.getAll({ position })
     res.json(players)
   }
 
-  static async getByID (req, res) {
+  getByID = async (req, res) => {
     const { id } = req.params
-    const player = await PlayerModel.getByID({ id })
+    const player = await this.playerModel.getByID({ id })
     if (player) return res.json(player)
     res.status(404).json({ message: 'Player not found' })
   }
 
-  static async create (req, res) {
+  create = async (req, res) => {
     const result = validatePlayer(req.body)
   
     if (!result.success) {
       return res.status(400).json({ error: JSON.parse(result.error.message) })
     }
   
-    const newPlayer =  await PlayerModel.create({ input: result.data })
+    const newPlayer =  await this.playerModel.create({ input: result.data })
   
     res.status(201).json(newPlayer)
   }
 
-  static async delete (req, res) {
+  delete = async (req, res) => {
     const { id } = req.params
     
-    const result = await PlayerModel.delete({ id })
+    const result = await this.playerModel.delete({ id })
   
     if (!result) {
       return res.status(404).json({ message: 'Player not found' })
@@ -41,7 +43,7 @@ export class PlayerController {
     return res.json({ message: 'Player deleted' })
   }
 
-  static async update (req, res) {
+  update = async (req, res) => {
     const result = validatePartialPlayer(req.body)
   
     if (!result.success) {
@@ -49,7 +51,7 @@ export class PlayerController {
     }
   
     const { id } = req.params
-    const updatedPlayer = await PlayerModel.update({id, input: result.data})
+    const updatedPlayer = await this.playerModel.update({id, input: result.data})
   
     return res.json(updatedPlayer)
   }

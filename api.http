@@ -13,15 +13,14 @@ POST http://localhost:3000/players
 Content-Type: application/json
 
 {
-        "id": "5c5f5979-755d-4dd9-956b-23f10d118a82",
-        "name": "Mark Evans",
-        "nickname": null,
-        "element": "Earth",
-        "gender": "Male",
-        "position": "GK",
-        "year": "2º",
-        "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/dd/%28R%29_Endou_Mamoru_sprite_%28VR%29.png"
-    }
+  "name": "Mark Evans",
+  "nickname": null,
+  "element": "Earth",
+  "gender": "Male",
+  "position": "GK",
+  "year": "2º",
+  "sprite": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/dd/%28R%29_Endou_Mamoru_sprite_%28VR%29.png"
+}
 
 ### Actualizar una película
 PATCH http://localhost:3000/players/e962498e-cd60-47a3-8e02-5916a4a8fc1d
