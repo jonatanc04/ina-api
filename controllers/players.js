@@ -1,4 +1,4 @@
-import { PlayerModel } from "../models/player.js";
+import { PlayerModel } from "../models/local-file-system/player.js";
 import { validatePlayer, validatePartialPlayer } from '../schemas/players.js'
 
 export class PlayerController {

@@ -1,4 +1,4 @@
-import players from '../players.json' with { type: 'json' }
+import players from '../../players.json' with { type: 'json' }
 import { randomUUID } from 'node:crypto'
 
 export class PlayerModel {

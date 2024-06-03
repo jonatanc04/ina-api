@@ -2,7 +2,7 @@
     {
         "id": "5c5f5979-755d-4dd9-956b-23f10d118a82",
         "name": "Mark Evans",
-        "nickname": "",
+        "nickname": null,
         "element": "Earth",
         "gender": "Male",
         "position": "GK",
@@ -12,7 +12,7 @@
     {
         "id": "e07ee164-94f3-40c7-b9cd-707d38c77194",
         "name": "Nathan Swift",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "DF",
@@ -22,7 +22,7 @@
     {
         "id": "3eae0759-43ee-4604-9cfd-86af57c21f89",
         "name": "Jack Wallside",
-        "nickname": "",
+        "nickname": null,
         "element": "Earth",
         "gender": "Male",
         "position": "DF",
@@ -32,7 +32,7 @@
     {
         "id": "b945bd8b-4ed3-48ea-a95a-9daf3b348bd8",
         "name": "Hurley Kane",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "DF",
@@ -42,7 +42,7 @@
     {
         "id": "c3e33371-b0ab-4089-9228-9ba45654a082",
         "name": "Jean-Pierre Lapin",
-        "nickname": "",
+        "nickname": null,
         "element": "Earth",
         "gender": "Male",
         "position": "DF",
@@ -52,7 +52,7 @@
     {
         "id": "7eb6aa48-dccb-4665-9a2d-eb31890b35b1",
         "name": "Sonny Wright",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -62,7 +62,7 @@
     {
         "id": "6e523d0c-4919-4acf-be90-85e894384245",
         "name": "Arion Sherwind",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "MF",
@@ -72,7 +72,7 @@
     {
         "id": "0f212d2f-62d8-4405-b3e1-5a4aaeb7ac1e",
         "name": "Victor Blade",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -82,7 +82,7 @@
     {
         "id": "20f6c499-533d-4858-a5b4-46da45da18c8",
         "name": "Axel Blaze",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -92,7 +92,7 @@
     {
         "id": "612cb879-bfb2-461c-b7c4-6e5de72e1edf",
         "name": "Byron Love",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "MF",
@@ -102,7 +102,7 @@
     {
         "id": "14232f7b-213c-4f3a-9e5d-bb39490f0790",
         "name": "Jordan Greenway",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "MF",
@@ -112,7 +112,7 @@
     {
         "id": "d8aaf605-40c4-449d-bfe3-076cb2fcf194",
         "name": "Heath Moore",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -122,7 +122,7 @@
     {
         "id": "7b4a7bf2-f2f1-4084-a767-5fae3976797c",
         "name": "Fei Rune",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "FW",
@@ -132,7 +132,7 @@
     {
         "id": "bef15643-24d3-4c96-9a7b-e3a1795f355c",
         "name": "Xavier Foster",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -142,7 +142,7 @@
     {
         "id": "f20c1456-1be5-4775-beda-7502f1fa9dbe",
         "name": "Darren LaChance",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "GK",
@@ -152,7 +152,7 @@
     {
         "id": "e992291a-3e6d-4a8f-8c02-bd394d69b488",
         "name": "Goldie Lemmon",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Female",
         "position": "DF",
@@ -162,7 +162,7 @@
     {
         "id": "4d142b4d-aeaa-4cc9-bc37-05798ec7999e",
         "name": "Samguk Han",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "GK",
@@ -172,7 +172,7 @@
     {
         "id": "3e78ee58-a91c-41bf-bc59-b6d5b530f571",
         "name": "Gabriel Garcia",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "DF",
@@ -182,7 +182,7 @@
     {
         "id": "ffa6e809-82c2-411b-bc5c-96e39f9cb2dc",
         "name": "Victoria Vanguard",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Female",
         "position": "MF",
@@ -192,7 +192,7 @@
     {
         "id": "68c65395-a35b-447d-8f10-09e3f93b94bc",
         "name": "Scott Banyan",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "DF",
@@ -202,7 +202,7 @@
     {
         "id": "90d0d2ec-ecda-484c-b459-63f72b56c881",
         "name": "Riccardo Di Rigo",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "MF",
@@ -212,7 +212,7 @@
     {
         "id": "b8702d99-43dd-48a3-af36-b73ecae0a5c3",
         "name": "Caleb Stonewall",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "MF",
@@ -222,7 +222,7 @@
     {
         "id": "d1eaab42-963e-49aa-9c21-7f2382215396",
         "name": "Shawn Froste",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "FW",
@@ -232,7 +232,7 @@
     {
         "id": "ca6b392c-5033-4ebd-a177-b9a71ec6e3de",
         "name": "Elliot Ember",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "FW",
@@ -242,7 +242,7 @@
     {
         "id": "49df6cee-a472-4121-b3b7-137854f63071",
         "name": "Kevin Dragonfly",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "FW",
@@ -252,7 +252,7 @@
     {
         "id": "ab1d50a6-21c5-4553-8da9-e7dd01a962a1",
         "name": "Bailong",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "FW",
@@ -262,7 +262,7 @@
     {
         "id": "4d02eb6c-18f4-419d-a7f2-c475cc2c8473",
         "name": "Jude Sharp",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "MF",
@@ -272,7 +272,7 @@
     {
         "id": "1f09e277-bc20-491a-84f9-b59b92db218c",
         "name": "Aitor Cazador",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "DF",
@@ -282,7 +282,7 @@
     {
         "id": "1fc1f5dd-7ee2-4d68-a58d-caa0fa2baf97s",
         "name": "Erik Eagle",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "MF",
@@ -292,7 +292,7 @@
     {
         "id": "d9bd1449-4c1e-47de-86c8-84f4a915f2f7",
         "name": "Zanark Avalonic",
-        "nickname": "",
+        "nickname": null,
         "element": "Earth",
         "gender": "Male",
         "position": "FW",
@@ -302,7 +302,7 @@
     {
         "id": "977e3d41-a241-4afb-9405-90d34439984e",
         "name": "Tezcat",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "FW",
@@ -312,7 +312,7 @@
     {
         "id": "a4b8d4da-d409-48e3-8c11-b5949b1230f7",
         "name": "Suzette Hartland",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Female",
         "position": "FW",
@@ -322,7 +322,7 @@
     {
         "id": "7ae7715d-342f-47aa-8a4c-6dbdff57cbdc",
         "name": "Dvalin",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "GK",
@@ -382,7 +382,7 @@
     {
         "id": "9fc83823-5a36-4f31-b538-0f7dfeb855ac",
         "name": "Janus",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "MF",
@@ -422,7 +422,7 @@
     {
         "id": "230dc379-8fcd-4a62-b9b9-8093da4b26fa",
         "name": "Xene",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Male",
         "position": "FW",
@@ -482,7 +482,7 @@
     {
         "id": "8606135d-9b15-48df-98f9-04bb7d3d78a1",
         "name": "Destin Billows",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "--",
@@ -492,7 +492,7 @@
     {
         "id": "71aa50a2-9126-4100-a69f-c6f645f78547",
         "name": "Briar Bloomhurst",
-        "nickname": "",
+        "nickname": null,
         "element": "Earth",
         "gender": "Male",
         "position": "FW",
@@ -502,7 +502,7 @@
     {
         "id": "d441b550-d29c-4369-b82e-8a565cc6ed92",
         "name": "Beta",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Female",
         "position": "FW",
@@ -512,7 +512,7 @@
     {
         "id": "6a406414-19cb-4d26-ad02-f56a9987d519",
         "name": "Cedric Freud",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "DF",
@@ -522,7 +522,7 @@
     {
         "id": "89c99c8e-9fb8-47cd-91b8-d31cae60ea77",
         "name": "Kameo Kodokai (JP)",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "DF",
@@ -532,7 +532,7 @@
     {
         "id": "4b8b7fee-61dd-4a64-b27b-cca416a8127c",
         "name": "Raika Shinohara (JP)",
-        "nickname": "",
+        "nickname": null,
         "element": "Fire",
         "gender": "Female",
         "position": "FW",
@@ -542,7 +542,7 @@
     {
         "id": "dc7d5a9e-a56c-4767-b4ee-04f258b80abc",
         "name": "Alix La Fontaine",
-        "nickname": "",
+        "nickname": null,
         "element": "Wind",
         "gender": "Male",
         "position": "GK",
@@ -552,7 +552,7 @@
     {
         "id": "91fbd794-8c4a-466d-9d0a-d80ae1b9053c",
         "name": "Thierry Reyes",
-        "nickname": "",
+        "nickname": null,
         "element": "Wood",
         "gender": "Male",
         "position": "FW",
